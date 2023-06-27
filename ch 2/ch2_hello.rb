@@ -1,0 +1,6 @@
+city = "Los Angeles"
+state = "CA"
+puts "1."
+puts "#{city}, #{state}"
+puts "2."
+puts "#{city}\t#{state}"
