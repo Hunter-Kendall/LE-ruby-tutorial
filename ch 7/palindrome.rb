@@ -3,7 +3,7 @@ class Phrase < String
   
     # Returns true for a palindrome, false otherwise.
     def palindrome?
-      processed_content = self.downcase
+      processed_content = downcase
       result = processed_content == processed_content.reverse
         if __FILE__ == $0
             puts result
@@ -11,7 +11,7 @@ class Phrase < String
       return result
     end
     def louder
-        puts self.upcase
+        puts upcase
     end
   end
 
