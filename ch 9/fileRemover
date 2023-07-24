@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+
+file = 'palindromes_file.txt'
+if  File.exist?(file)  
+    FileUtils.rm(file)  
+    puts "Removed #{file}"
+else
+    puts "#{file} does not exist"
+end
